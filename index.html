@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mugwamp</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="questionnaire.js"></script>
+
+  <link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Which house are you in?</h1>
+    <!-- <p>
+      Answer the questions below and we’ll figure out which animal you are.
+      Be sure to answer every question so the zookeeper can do her magic!
+    </p> -->
+
+    <form action="#" method="" id="houseForm">
+      <section class="question">
+        <fieldset>
+          <legend><strong>How do you like to travel?</strong></legend>
+          <dl>
+            <dd><label><input type="radio" name="question[travel]" value="bear,fox"> On foot</label></dd>
+            <dd><label><input type="radio" name="question[travel]" value="falcon,owl"> By airplane</label></dd>
+          </dl>
+        </fieldset>
+      </section>
+
+      <section class="question">
+        <fieldset>
+          <legend><strong>Which do you like better?</strong></legend>
+          <dl>
+            <dd><label><input type="radio" name="question[daynight]" value="bear,fox,falcon"> Day</label></dd>
+            <dd><label><input type="radio" name="question[daynight]" value="owl"> Night</label></dd>
+          </dl>
+        </fieldset>
+      </section>
+
+      <footer class="buttons">
+        <p>
+          <input type="submit" class="btn" value="Sort me!" data-behavior="tabulate-result">
+        </p>
+      </footer>
+    </form>
+  </div>
+
+  <div class="zoom">
+    <div class="zoomed-row">
+      <div class="zoomed-item" data-behavior="unzoom">
+        <div class="zoomed-item__animal" data-role="animal-emoji"></div>
+        <h1 class="zoomed-item__label">
+          You're in… <span data-role="animal-name"></span>!
+        </h1>
+
+        <p class="buttons">
+          <a href="#" class="btn" data-behavior="unzoom">Try again!</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
