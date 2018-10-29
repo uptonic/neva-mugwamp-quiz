@@ -33,17 +33,17 @@ section {
 }
 
 fieldset {
-  border-color: #40e0d0;
+  border-color: #e7e6ea;
   border-width: 1px;
 }
 
 legend {
-  color: #c09;
+  color: #30758c;
 }
 
 .btn {
   -webkit-appearance: none;
-  background-color: #40e0d0;
+  background-color: #e7e6ea;
   font-size: 2rem;
   border: 0;
   border-radius: 12rem;
