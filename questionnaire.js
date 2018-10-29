@@ -3,7 +3,8 @@ const animals = [
   { name: "shadow", fullName: "Shadow Clan", emoji: "🦊" },
   { name: "wind", fullName: "Wind Clan", emoji: "🦉" },
   { name: "thunder", fullName: "Thunder Clan", emoji: "🦅" },
-  { name: "river", fullName: "River Clan", emoji: "🐻" }
+  { name: "river", fullName: "River Clan", emoji: "🐻" },
+  { name: "sky", fullName: "Sky Clan", emoji: "🐻" }
 ]
 
 // Store answers as they roll in
