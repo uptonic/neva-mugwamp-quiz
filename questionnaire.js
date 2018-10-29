@@ -29,7 +29,7 @@ $(document).on("click", "[data-behavior~=tabulate-result]", function(event) {
   // Display your animal
   $("[data-role=animal-emoji]").html(getAnimal(animal).emoji)
   $("[data-role=animal-name]").html(getAnimal(animal).fullName)
-  $(".zoom").fadeIn("fast")
+  $("[data-role=zoom-container]").fadeIn("fast")
 
   // Reset the form
   $('form').get(0).reset()
@@ -46,7 +46,7 @@ $(document).on('click', "[data-behavior~=unzoom]", function(event) {
   window.scrollTo(0,0)
 
   // Hide the dialog
-  $(".zoom").fadeOut("fast")
+  $("[data-role=zoom-container]").fadeOut("fast")
 })
 
 // Find the full name and emoji of the selected animal
