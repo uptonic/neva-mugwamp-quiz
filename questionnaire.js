@@ -1,9 +1,9 @@
 // Create an array of our animals
 const animals = [
-  { name: "fox", fullName: "Fox Tail", emoji: "🦊" },
-  { name: "owl", fullName: "Owl Talon", emoji: "🦉" },
-  { name: "falcon", fullName: "Falcon Feather", emoji: "🦅" },
-  { name: "bear", fullName: "Bear Paw", emoji: "🐻" }
+  { name: "shadow", fullName: "Shadow Clan", emoji: "🦊" },
+  { name: "wind", fullName: "Wind Clan", emoji: "🦉" },
+  { name: "thunder", fullName: "Thunder Clan", emoji: "🦅" },
+  { name: "river", fullName: "River Clan", emoji: "🐻" }
 ]
 
 // Store answers as they roll in
