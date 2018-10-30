@@ -1,10 +1,10 @@
 // Create an array of our animals
 const animals = [
-  { name: "shadow", fullName: "Shadow Clan", emoji: "🌌" },
-  { name: "wind", fullName: "Wind Clan", emoji: "🌬" },
-  { name: "thunder", fullName: "Thunder Clan", emoji: "⛈" },
-  { name: "river", fullName: "River Clan", emoji: "🏞" },
-  { name: "sky", fullName: "Sky Clan", emoji: "🌄" }
+  { name: "shadow", fullName: "Shadowclan", emoji: "🌌" },
+  { name: "wind", fullName: "Windclan", emoji: "🌬" },
+  { name: "thunder", fullName: "Thunderclan", emoji: "⛈" },
+  { name: "river", fullName: "Riverclan", emoji: "🏞" },
+  { name: "sky", fullName: "Skyclan", emoji: "🌄" }
 ]
 
 // Store answers as they roll in
