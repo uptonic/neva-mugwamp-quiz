@@ -15,6 +15,7 @@ a {
 
 h1 {
   text-align: center;
+  color: #a31010;
 }
 
 h4 {
@@ -33,7 +34,7 @@ section {
 }
 
 fieldset {
-  border-color: #e27b14;
+  border-color: #848180;
   border-width: 1px;
 }
 
