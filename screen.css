@@ -35,7 +35,7 @@ section {
 
 fieldset {
   border-color: #848180;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 legend {
@@ -50,7 +50,7 @@ legend {
   border-radius: 12rem;
   padding: 1.5rem 2rem;
   text-decoration: none;
-  color: #000;
+  color: #dedfe0;
   outline: 0;
   cursor: pointer;
 }
